@@ -45,6 +45,7 @@ class HomePageView extends StatelessWidget {
           ),
           Expanded(
             child: Obx(
+              // observer will rebuild the object whenever having a chnge in state
                   () {
                 if (productController.isLoading.value) {
                   return const Center(child: CircularProgressIndicator());

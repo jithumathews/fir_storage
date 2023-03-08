@@ -6,6 +6,7 @@ import '../services/http_service.dart';
 class ProductController extends GetxController {
   var isLoading = true.obs;
   var productList = [].obs;
+  //obs = observable
 
   @override
   void onInit() {
