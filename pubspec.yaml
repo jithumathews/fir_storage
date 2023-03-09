@@ -39,7 +39,13 @@ dependencies:
   get: ^4.6.1
   http: ^0.13.4
   cached_network_image: ^3.2.1
-  permission_handler: 
+  permission_handler:
+  dio: ^4.0.6
+  lottie: ^1.4.1
+  internet_connection_checker: ^0.0.1+4
+  top_snackbar_flutter: ^2.1.1
+  scrollable_positioned_list: ^0.3.2
+  font_awesome_flutter: ^10.1.0
 
 
   # The following adds the Cupertino Icons font to your application.
